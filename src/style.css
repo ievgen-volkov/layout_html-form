@@ -1,4 +1,7 @@
-/* styles go here */
+* {
+  box-sizing: border-box;
+}
+
 .input {
   margin-bottom: 20px;
 }
@@ -6,17 +9,3 @@
 .block {
   margin-bottom: 10px;
 }
-
-.field::placeholder {
-  color: blue;
-}
-
-.field:invalid {
-  border: 1px solid red;
-}
-
-.field:focus {
-  background: yellow;
-}
-
-
