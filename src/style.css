@@ -1,11 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-
-.input {
+.form-fieldset {
   margin-bottom: 20px;
 }
 
-.block {
+.form-field:not(:last-child) {
   margin-bottom: 10px;
 }
